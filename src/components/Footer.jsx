@@ -9,10 +9,8 @@ const Footer = ({ theme }) => {
       px-4 sm:px-12 lg:px-24 xl:px-40
       py-12 text-gray-700 dark:text-white/80
     ">
-      {/* TOP SECTION */}
       <div className="flex flex-col sm:flex-row justify-between gap-12">
         
-        {/* LEFT */}
         <div className="max-w-sm">
           <img
             src={theme === "dark" ? assets.logo_dark : assets.logo}
@@ -25,7 +23,6 @@ const Footer = ({ theme }) => {
           </p>
         </div>
 
-        {/* RIGHT */}
         <div className="flex flex-col gap-4 sm:items-end">
           <p className="text-sm font-medium">
             Subscribe to our newsletter
@@ -53,7 +50,6 @@ const Footer = ({ theme }) => {
         </div>
       </div>
 
-      {/* BOTTOM SECTION */}
       <div className="
         mt-12 pt-6
         border-t border-gray-200 dark:border-gray-700

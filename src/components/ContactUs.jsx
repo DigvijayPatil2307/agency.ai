@@ -45,7 +45,6 @@ const ContactUs = () => {
         className="grid sm:grid-cols-2 gap-4 sm:gap-6 max-w-2xl w-full"
         onSubmit={onSubmit}
       >
-        {/* NAME */}
         <div>
           <p className="mb-2 text-sm font-medium">Your Name</p>
           <div
@@ -66,7 +65,6 @@ const ContactUs = () => {
           </div>
         </div>
 
-        {/* EMAIL */}
         <div>
           <p className="mb-2 text-sm font-medium">Email Id</p>
           <div
@@ -87,7 +85,6 @@ const ContactUs = () => {
           </div>
         </div>
 
-        {/* MESSAGE */}
         <div className="sm:col-span-2">
           <p className="mb-2 text-sm font-medium">Message</p>
           <textarea
@@ -103,7 +100,6 @@ const ContactUs = () => {
           />
         </div>
 
-        {/* BUTTON */}
         <button
           type="submit"
           className="
